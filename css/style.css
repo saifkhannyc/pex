@@ -1,0 +1,515 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Global CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+input,
+button {
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Header Section CSS */
+
+header {
+  width: 100%;
+  background: #daac00 !important;
+}
+
+.sticky {
+  position: fixed;
+  z-index: 9999;
+  background: #daac00 !important;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+  color: #fff !important;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.input-group-text {
+  background-color: #00bec9 !important;
+  border-color: #00bec9 !important;
+  color: white !important;
+  border-radius: 0;
+}
+
+header .form-control {
+  background: #fcc302 !important;
+  border-color: #fcc302 !important;
+  border-radius: 0 !important;
+}
+
+header .input-group {
+  margin-top: 12px;
+  box-shadow: 3px 4px 8px 0px rgba(0, 0, 0, 0.3);
+}
+
+header .input-group input::placeholder {
+  color: white;
+}
+
+/* Banner section css */
+
+.banner {
+  width: 100%;
+  background-color: #fcc302;
+  height: 70vh;
+}
+
+.banner .col-md-8 .left {
+  height: 70vh;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0px 20px;
+}
+
+.banner .col-md-8 .left h1 {
+  color: #ffffff !important;
+  font-weight: 500px;
+  font-size: 50px;
+}
+
+.banner .col-md-8 .left p {
+  font-weight: 400px;
+  color: #fff7dd !important;
+  margin-bottom: 40px;
+}
+
+.left .btn-primary {
+  background: #00bec9 !important;
+  color: #ffffff !important;
+  border-radius: 5px;
+  border: 1px solid #fcc302 !important;
+  padding: 10px 10px;
+  margin-right: 20px;
+}
+
+.left .btn-secondary {
+  background: #fcc302 !important;
+  color: #ffffff !important;
+
+  border-radius: 5px;
+  border: 1px solid #ffffff !important;
+  padding: 10px 10px;
+}
+
+.left .btn-primary:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.left .btn-secondary:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.right {
+  height: 70vh;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* Video section css */
+
+.video-section {
+  width: 100%;
+  padding: 120px 0;
+}
+
+.video-section .col-md-6 h1 {
+  padding-top: 50px;
+  font-weight: 600;
+  color: #313243;
+}
+
+.video-section .col-md-6 p {
+  color: #5a5a66;
+  padding: 15px 0;
+  font-weight: 400;
+}
+
+.video-section .col-md-6 .btn-primary {
+  font-weight: 400;
+  color: #ffffff;
+  background: #fcc302 !important;
+  padding: 10px;
+  border: none;
+}
+
+.video-section .col-md-6 .btn-primary:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.part a {
+  position: relative;
+}
+
+.part i {
+  height: 80px;
+  width: 80px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 100%;
+  color: black;
+  position: absolute;
+  top: 0;
+  left: 43%;
+  text-align: center;
+  line-height: 80px;
+  font-size: 24px;
+}
+
+.video-part {
+  position: relative;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: #fcc302;
+  position: absolute;
+  left: -30px;
+  bottom: -30px;
+  z-index: -9;
+}
+
+/* Title section css */
+
+.title {
+  width: 100%;
+  background-color: #fcc302;
+  padding: 120px 0;
+}
+
+.title .col-md-12 {
+  text-align: center;
+}
+
+.title .col-md-12 .title-desc {
+  padding: 10px;
+}
+
+.title .col-md-12 .title-desc h2 {
+  color: #ffffff !important;
+  font-size: 50px;
+}
+
+.title .col-md-12 .title-desc p {
+  font-size: 22px;
+  color: #ffffff !important;
+}
+
+.title .col-md-4 {
+  text-align: center;
+}
+
+.title .col-md-4 h4 {
+  font-weight: 600;
+  padding-top: 20px;
+  color: #ffffff !important;
+}
+
+.title .col-md-4 p {
+  font-weight: 400;
+  color: #fef0d0 !important;
+}
+
+/* Video section-2 css */
+
+.video-section-2 {
+  width: 100%;
+  padding: 120px 0;
+}
+
+.box-2 {
+  height: 200px;
+  width: 200px;
+  background-color: #fcc302;
+  position: absolute;
+  right: -20px;
+  bottom: -30px;
+  z-index: -9;
+}
+
+.video-section-2 .col-md-6 {
+  text-align: right;
+}
+
+.video-section-2 .col-md-6 h1 {
+  padding-top: 50px;
+  font-weight: 600;
+  color: #313243;
+}
+
+.video-section-2 .col-md-6 p {
+  color: #5a5a66;
+  padding: 15px 0;
+  font-weight: 400;
+}
+
+.video-section-2 .col-md-6 .btn-primary {
+  font-weight: 400;
+  color: #ffffff;
+  background: #fcc302 !important;
+  padding: 10px;
+  border: none;
+}
+
+.video-section-2 .col-md-6 .btn-primary:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Title-2 section css */
+
+.title-2 {
+  width: 100%;
+  background-color: #fcc302;
+  padding: 120px 0;
+}
+
+.title-2 .col-md-12 {
+  text-align: center;
+}
+
+.title-2 .col-md-12 .title-desc {
+  padding: 10px;
+}
+
+.title-2 .col-md-12 .title-desc h2 {
+  color: #ffffff !important;
+  font-size: 50px;
+}
+
+.title-2 .col-md-12 .title-desc p {
+  font-size: 22px;
+  color: #ffffff !important;
+}
+
+.title-2 .col-md-4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title-2 .col-md-4 h4,
+del,
+span {
+  font-weight: 600;
+  padding-top: 20px;
+  color: #ffffff !important;
+}
+
+.title-2 .col-md-4 h4 {
+  margin-bottom: 20px;
+}
+
+.title-2 .col-md-4 h4 span {
+  margin-left: 20px;
+}
+
+.title-2 .col-md-4 .btn-primary {
+  border-radius: 15px;
+  padding: 5px 35px;
+  background: #00bec9 !important;
+  color: #ffffff !important;
+  border: 1px solid #00bec9 !important;
+}
+
+/* Vet Team CSS */
+.vet-team {
+  width: 100%;
+  padding: 120px 0;
+}
+
+.vet-team .col-md-12 {
+  text-align: center;
+}
+
+.vet-team .col-md-12 h2 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.vet-team .col-md-12 p {
+  font-weight: 400;
+}
+
+.vet-team .col-md-4 {
+  text-align: center;
+}
+
+.vet-team .col-md-4 h5 {
+  font-weight: 700;
+  padding-top: 5px;
+}
+
+.vet-team .col-md-4 h6 {
+  font-weight: 400;
+  padding-bottom: 5px;
+}
+
+.vet-team .col-md-4 ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.vet-team .col-md-4 ul li i {
+  color: #ffffff !important;
+  border-radius: 50%;
+  background: #daac00 !important;
+  padding: 5px 5px;
+  margin-left: 10px;
+}
+
+/* Counts section css */
+
+.counts {
+  padding: 120px 0;
+  text-align: center;
+  width: 100%;
+  background: url(../img/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.counts .col-md-4 ul li {
+  list-style: none;
+  text-align: center;
+}
+
+.counts .col-md-4 h4 {
+  color: #ffffff !important;
+}
+
+.counts .col-md-4 ul li a i {
+  font-size: 60px;
+  color: #ffffff !important;
+}
+
+/* Recent Post css  */
+.recent-post {
+  padding: 120px 0;
+  width: 100%;
+}
+
+.recent-post .col-md-12 {
+  text-align: center;
+}
+
+.recent-post .card-title {
+  font-weight: 600;
+}
+
+.card-body .date {
+  color: #44cfd7;
+  font-weight: 500;
+}
+
+.card-body p {
+  font-weight: 400;
+}
+
+.card-body .link {
+  font-size: 19px;
+  color: #44cfd7;
+  font-weight: bold;
+}
+
+.card:hover {
+  box-shadow: 5px 10px 10px rgb(0, 0, 0, 0.2);
+}
+
+/* Footer section */
+
+footer {
+  width: 100%;
+  padding: 100px 0;
+  background: #343434 !important;
+}
+
+footer .col-md-3 h4 {
+  color: white;
+  font-weight: 600;
+}
+
+footer .col-md-3 ul li {
+  list-style: none;
+}
+
+footer .col-md-3 ul li a {
+  color: white;
+  font-weight: 400;
+}
+
+footer .col-md-6 h3 {
+  color: white;
+  font-weight: 700;
+  text-align: right;
+}
+
+footer .col-md-6 p {
+  color: white;
+  font-weight: 400;
+  text-align: right;
+}
+
+footer form {
+  margin-left: 265px;
+}
+
+footer .input-group-text {
+  background-color: #00bec9 !important;
+  border-color: #00bec9 !important;
+  color: white !important;
+  border-radius: 0;
+}
+
+footer .form-control {
+  background: #fcc302 !important;
+  border-color: #fcc302 !important;
+  border-radius: 0 !important;
+  padding: 22px;
+}
+
+footer .social-icons ul {
+  text-align: right;
+}
+
+footer .social-icons ul li {
+  display: inline-block;
+  margin-left: 15px;
+  background: #ffffff;
+  color: #000;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  text-align: center;
+}
