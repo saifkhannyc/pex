@@ -18,6 +18,11 @@
     justify-content: center !important;
   }
 
+  .banner .col-md-4 .right {
+    display: block;
+    text-align: center;
+  } 
+
   .banner .col-md-4 {
     max-width: 100% !important;
   }
