@@ -1,2 +1,2 @@
 # pex
-Veterinary Clinic Website Template- PSD to Bootstrap 
+Veterinary Clinic Website Template- Converted PSD to Bootstrap 
